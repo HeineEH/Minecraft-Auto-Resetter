@@ -6,6 +6,9 @@
     <RootNamespace>Minecraft_Auto_Resetter_by_Heineeeeeee</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>MinecraftAutoResetterIcon.ico</ApplicationIcon>
+    <Authors>Heineeeeeee</Authors>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>

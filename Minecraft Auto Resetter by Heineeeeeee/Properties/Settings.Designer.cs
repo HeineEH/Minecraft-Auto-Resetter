@@ -85,7 +85,7 @@ namespace Minecraft_Auto_Resetter_by_Heineeeeeee.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("30")]
+        [global::System.Configuration.DefaultSettingValueAttribute("70")]
         public int delay {
             get {
                 return ((int)(this["delay"]));

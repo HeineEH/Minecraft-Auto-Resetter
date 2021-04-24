@@ -120,6 +120,10 @@ namespace Minecraft_Auto_Resetter_by_Heineeeeeee
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
+            trayIcon_exit.Click += trayIconExit_Click;
+            trayIcon_open.Click += trayIconOpen_Click;
+
             getMcProcess();
             delayBox.Text = delay.ToString();
 
@@ -491,7 +495,13 @@ namespace Minecraft_Auto_Resetter_by_Heineeeeeee
         {
             Close();
         }
-        
 
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+            this.Hide();
+
+        }
     }
+
 }
