@@ -211,7 +211,7 @@ namespace Minecraft_Auto_Resetter_by_Heineeeeeee
         void initHotkeys()
         {
             keyboardHook = new UserActivityHook();
-            keyboardHook.KeyDown += new KeyEventHandler(keyboardHook_KeyPress);
+            keyboardHook.KeyUp += new KeyEventHandler(keyboardHook_KeyPress);
         }
 
         private void form_Closed(object sender, FormClosedEventArgs e)
