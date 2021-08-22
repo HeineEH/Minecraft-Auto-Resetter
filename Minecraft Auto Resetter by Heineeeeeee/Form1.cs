@@ -349,6 +349,8 @@ namespace Minecraft_Auto_Resetter_by_Heineeeeeee
         {
             attemptsAmount++;
             attemptsAmountBox.Text = attemptsAmount.ToString();
+            Properties.Settings.Default.attemptsAmount = attemptsAmount;
+            Properties.Settings.Default.Save();
 
 
             List<Object[]> keys = new List<object[]>();
@@ -456,6 +458,7 @@ namespace Minecraft_Auto_Resetter_by_Heineeeeeee
                 }
                 Thread.Sleep(delay);
             }
+
             busy = false;
         }
 
